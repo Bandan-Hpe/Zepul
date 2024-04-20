@@ -7,6 +7,8 @@
 }
 .color-title {
   color: var(--blue);
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .dropdowns-item {
   /* background-color: #e3e3e3; */
@@ -48,5 +50,42 @@
   height: 450px;
   border-radius: 8px;
   left: -150px;
-  top:200px;
+  top: 200px;
+}
+.home-img3 {
+  width: 450px;
+  background-color: #e3e3e3;
+  height: 450px;
+  border-radius: 8px;
+}
+.what-we-are-solving {
+  margin-top: 4rem !important;
+}
+.inner-content .item {
+  border-bottom: 1px solid #eeeeee;
+}
+.inner-content .item h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.inner-content .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #424242;
+}
+
+.color-para {
+  color: var(--blue);
+}
+.card-item {
+  height: 260px;
+  background-color: #e3e3e3;
+  margin: 1rem;
+  border-radius: 16px;
+  
+}
+.card-item h3{
+  font-size:28px;
+  padding:1rem 2.5rem
 }

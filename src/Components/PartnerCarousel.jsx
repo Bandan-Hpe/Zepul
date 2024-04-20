@@ -50,7 +50,7 @@ const PartnerCarousel = () => {
   return (
     <Fragment>
       <section className=" mt-5">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center ">
           <div className="col-md-3 col-xl-3 col-sm-12">
             <p>
               Trusted by more then 100+

@@ -1,0 +1,25 @@
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer p {
+  color: white;
+}
+hr {
+  height: 1px;
+}
+
+footer .logo p {
+  font-size: 14px;
+}
+.list1 .title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.icon {
+  font-size: 25px;
+  color: #808490;
+}
+.icon:hover {
+  color: #fff;
+}

@@ -32,3 +32,8 @@ a {
 .row {
   margin: 0px !important;
 }
+.color-title {
+  color: var(--blue);
+  font-weight: 500;
+  text-transform: uppercase;
+}
