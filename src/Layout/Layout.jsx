@@ -10,6 +10,7 @@ const Layout = () => {
       <TopScroller />
       <Header />
       <Router />
+     
       <Footer />
     </Fragment>
   );

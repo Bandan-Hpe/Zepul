@@ -1,8 +1,27 @@
 import React, { Fragment } from "react";
 import CommonHeroSection from "../Components/CommonHeroSection";
 import PartnerCarousel from "../Components/PartnerCarousel";
+import Standout from "../Components/Standout";
 
 const JobsSeeker = () => {
+  const data = {
+    title: "STAND OUT WITH US",
+    main_title: "Try Zepul",
+    percentige: [
+      {
+        title: "86%",
+        subtitle: "More Opportunities",
+      },
+      {
+        title: "57%",
+        subtitle: "Increase in Visibility",
+      },
+      {
+        title: "20%",
+        subtitle: "Access to Global Opportunities",
+      },
+    ],
+  };
   return (
     <Fragment>
       <CommonHeroSection
@@ -21,7 +40,8 @@ const JobsSeeker = () => {
             <div className="home-content">
               <p className="color-title mb-0">Unlocking Innovation</p>
               <h1>
-                Land your dream job, join Zepul's <br/>thriving talent community.
+                Land your dream job, join Zepul's <br />
+                thriving talent community.
               </h1>
             </div>
           </div>
@@ -35,6 +55,7 @@ const JobsSeeker = () => {
           </div>
         </section>
       </div>
+      <Standout data={data} />
     </Fragment>
   );
 };

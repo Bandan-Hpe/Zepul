@@ -1,8 +1,27 @@
 import React, { Fragment } from "react";
 import CommonHeroSection from "../Components/CommonHeroSection";
 import PartnerCarousel from "../Components/PartnerCarousel";
+import Standout from "../Components/Standout";
 
 const Companies = () => {
+  const data = {
+    title: "STAND OUT WITH US",
+    main_title: "Become an industry leader",
+    percentige: [
+      {
+        title: "3x",
+        subtitle: "Increase in Productivity",
+      },
+      {
+        title: "40%",
+        subtitle: "Increased Hiring Speed",
+      },
+      {
+        title: "20%",
+        subtitle: "Improved Quality Hire.",
+      },
+    ],
+  };
   return (
     <Fragment>
       <CommonHeroSection
@@ -35,6 +54,7 @@ const Companies = () => {
           </div>
         </section>
       </div>
+      <Standout data={data} />
     </Fragment>
   );
 };
