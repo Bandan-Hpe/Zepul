@@ -37,3 +37,8 @@ a {
   font-weight: 500;
   text-transform: uppercase;
 }
+.community {
+  border: 1px solid #e3e3e3;
+  padding: 1.5rem;
+  border-radius: 25px;
+}

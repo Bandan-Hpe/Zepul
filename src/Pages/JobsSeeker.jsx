@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 import CommonHeroSection from "../Components/CommonHeroSection";
 import PartnerCarousel from "../Components/PartnerCarousel";
 import Standout from "../Components/Standout";
+import JobsTabs from "../AllTabs/JobSeeker";
+import Community from "../Components/Community";
+
 
 const JobsSeeker = () => {
   const data = {
@@ -22,6 +25,26 @@ const JobsSeeker = () => {
       },
     ],
   };
+  const communityData = [
+    {
+      id: 1,
+      title: "Community-Driven Recruitment",
+      description:
+        "Our vibrant community actively collaborates to identify exceptional talent, fostering a diverse and dynamic team. Together, we shape the future",
+    },
+    {
+      id: 2,
+      title: "Elevated Operational Efficiency",
+      description:
+        "By eliminating the need for extensive screening and evaluation, skill-based matching optimizes resource allocation and maximizes your recruiter productivity.",
+    },
+    {
+      id: 3,
+      title: "Data-Driven Decision Making",
+      description:
+        "Precise matching enables informed hiring decisions based on objective criteria, fostering long-term employee success and organizational growth.",
+    },
+  ];
   return (
     <Fragment>
       <CommonHeroSection
@@ -55,6 +78,9 @@ const JobsSeeker = () => {
           </div>
         </section>
       </div>
+      <JobsTabs />
+      <Community data={communityData} />
+
       <Standout data={data} />
     </Fragment>
   );
