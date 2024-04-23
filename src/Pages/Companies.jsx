@@ -56,7 +56,7 @@ const Companies = () => {
         <PartnerCarousel />
       </div>
       <div className="row">
-        <section className="d-flex row innovation p-5 mt-5 align-items-center">
+        <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
           <div className="col-md-6">
             <div className="home-content">
               <p className="color-title mb-0">Revolutionize hiring</p>
@@ -67,7 +67,7 @@ const Companies = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <p className="w-75">
+            <p className="w-md-75">
               Zepul streamlines recruitment, connecting you with top industry
               professionals through a curated talent pool. Our platform
               expedites your hiring process, securing the right talent to drive

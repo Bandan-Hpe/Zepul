@@ -58,7 +58,7 @@ const Recruitment = () => {
         <PartnerCarousel />
       </div>
       <div className="row">
-        <section className="d-flex row innovation p-5 mt-5 align-items-center">
+        <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
           <div className="col-md-6">
             <div className="home-content">
               <p className="color-title mb-0">Recruit smarter, grow faster</p>
@@ -69,7 +69,7 @@ const Recruitment = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <p className="w-75">
+            <p className="w-md-75">
               Zepul empowers partners to optimize their operational efficiency,
               cut down on promotional costs, and tap into an expansive
               international market landscape for enhanced growth opportunities.

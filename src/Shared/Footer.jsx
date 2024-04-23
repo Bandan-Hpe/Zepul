@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Fragment>
       <footer>
-        <div className="row p-5">
+        <div className="row p-md-5 p-2">
           <div className="col-md-6">
             <h1>
               It's very simple to <br />
@@ -20,29 +20,25 @@ const Footer = () => {
               and Elevate Results. Discover the Difference Today
             </p>
           </div>
-          <div className="col-md-6 d-flex justify-content-end align-items-center">
+          <div className="col-md-6 d-flex justify-content-md-end align-items-center btn-grp">
             <button className="sign-in-button hero">Sign In</button>
           </div>
         </div>
         <hr />
-        <div className="row p-5">
+        <div className="row p-md-5 p-3">
           <div className="col-md-3">
             <div className=" ">
-              <img
-                src="/assets/image.png"
-                alt="logo"
-              />
+              <img src="/assets/image.png" alt="logo" />
               <p>
-                Zepul is committed to eliminating all
-                <br /> recruitment pain points and increasing <br /> the
-                effectiveness of human intervention.
+                Zepul is committed to eliminating all recruitment pain points
+                and increasing the effectiveness of human intervention.
               </p>
             </div>
           </div>
-          <div className="col-md-6 d-flex justify-content-evenly align-items-center">
+          <div className="col-md-6 d-md-flex justify-content-md-evenly align-items-center align-items-sm-start ">
             <div className="list1">
-              <h1 className="title"> COMPANY</h1>
-              <ul className="mt-4">
+              <h4 className="title"> COMPANY</h4>
+              <ul className="mt-4 p-0">
                 <li>
                   <Link to="/">Terms</Link>
                 </li>
@@ -55,8 +51,8 @@ const Footer = () => {
               </ul>
             </div>
             <div className="list1">
-              <h1 className="title"> COMPANY</h1>
-              <ul className="mt-4">
+              <h4 className="title"> COMPANY</h4>
+              <ul className="mt-4 p-0">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
@@ -102,8 +98,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-       
-        <div className="row copy-right text-end px-5">
+
+        <div className="row copy-right text-md-end px-5">
           <p>© Copyright 202. All Rights Reserved by Zepul</p>
         </div>
       </footer>

@@ -16,8 +16,8 @@ const CommonHeroSection = ({ title, subtitle, btnText, image }) => {
               <button className="sign-in-button hero">{btnText}</button>
             </div>
           </div>
-          <div className="col-md-5 col-sm-6 col-xl-7 d-flex justify-content-center">
-            <img src={image} alt="" className="hero-img w-75" />
+          <div className="col-md-5 col-sm-12 col-xl-7 d-flex justify-content-center">
+            <img src={image} alt="" className="hero-img w-md-50 mt-sm-5 py-5"/>
           </div>
         </div>
       </div>

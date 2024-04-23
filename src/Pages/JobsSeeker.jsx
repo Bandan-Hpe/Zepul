@@ -58,7 +58,7 @@ const JobsSeeker = () => {
         <PartnerCarousel />
       </div>
       <div className="row">
-        <section className="d-flex row innovation p-5 mt-5 align-items-center">
+        <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
           <div className="col-md-6">
             <div className="home-content">
               <p className="color-title mb-0">Unlocking Innovation</p>
@@ -69,7 +69,7 @@ const JobsSeeker = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <p className="w-75">
+            <p className="w-md-75">
               Connect directly with innovative companies seeking your unique
               abilities. Zepul's dynamic platform empowers you to stand out from
               the crowd and secure the perfect position with a dedicated team

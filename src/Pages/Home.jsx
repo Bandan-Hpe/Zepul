@@ -62,8 +62,8 @@ const Home = () => {
               boost the effectiveness of human intervention
             </h1>
           </section>
-          <section className="d-flex row innovation p-5 mt-5 align-items-center">
-            <div className="col-md-6">
+          <section className="d-flex row innovation p-md-5  align-items-center">
+            <div className="col-md-6 mt-5">
               <div className="home-content">
                 <p className="color-title mb-0">Unlocking Innovation</p>
                 <h1>
@@ -72,15 +72,15 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className="col-md-6">
-              <p className="w-75">
+            <div className="col-md-6 mt-md-5">
+              <p className="w-md-75">
                 Unleash efficient hiring with our powerful suite of tools.
                 Streamline your workflow, gain data-driven insights to attract
                 top talent, and simplify the entire recruitment process.
               </p>
             </div>
           </section>
-          <section className="whats-inside p-5 d-flex row justify-content-around">
+          <section className="whats-inside p-md-5 d-flex row justify-content-around">
             <div className="col-md-5">
               <h1 className="">See What's inside</h1>
               <p>
@@ -91,7 +91,7 @@ const Home = () => {
               <div className="dropdowns mt-5 position-relative">
                 {data.map((item, index) => {
                   return (
-                    <div className="dropdowns-item w-50 p-3 m-3 " key={index}>
+                    <div className="dropdowns-item w-md-75 w-xl-50 p-3 mt-3 mb-3" key={index}>
                       <h5>{item.title}</h5>
                       <p className="mb-0">{item.description}</p>
                     </div>
@@ -99,54 +99,53 @@ const Home = () => {
                 })}
               </div>
             </div>
-            <div className="col-md-5 position-relative ">
+            <div className="col-md-5 position-relative d-flex justify-content-center">
               <div className="home-img  top-0 "></div>
-              <div className="home-img2 position-absolute"></div>
             </div>
           </section>
           <section className="what-we-are-solving    mt-5">
             <div className="row justify-content-around">
-              <div className="col-md-4    mt-5">
+              <div className="col-md-4   d-flex justify-content-center mt-5">
                 <div className="home-img3"></div>
               </div>
-              <div className="col-md-5 mt-5">
+              <div className="col-md-6 mt-5 p-sm-5">
                 <div className="home-content">
                   <p className="color-title mb-0">What we are Solving</p>
                   <h1>
                     Simplifying Complexities <br />
                     in Recruitment
                   </h1>
-                  <p className="w-75">
+                  <p className="w-md-75 mt-sm-4">
                     Struggling with a slow, inefficient recruitment process?
                     You're not alone. Finding the right talent can be
                     time-consuming and frustrating. Here are some common
                     challenges we help you overcome
                   </p>
                 </div>
-                <div className="inner-content ">
-                  <div className="item d-flex  align-items-center">
-                    <h1 className="col-md-5">Database</h1>
-                    <p className="col-md-7">
+                <div className="inner-content mt-sm-5">
+                  <div className="item d-flex  align-items-center row">
+                    <h1 className="col-md-5 col-sm-4">Database</h1>
+                    <p className="col-md-7 col-sm-6">
                       Referral program: Top talent, fast. Free, pre-qualified
                       candidates, minimal no-shows.
                     </p>
                   </div>
-                  <div className="item d-flex  align-items-center">
-                    <h1 className="col-md-5">Quality</h1>
-                    <p className="col-md-7">
+                  <div className="item d-flex  align-items-center row">
+                    <h1 className="col-md-5 col-sm-4">Quality</h1>
+                    <p className="col-md-7 col-sm-6">
                       High quality database and profiles, community based
                       recruiting partners.
                     </p>
                   </div>
-                  <div className="item d-flex justify-content-between align-items-center">
-                    <h1 className="col-md-5">Sourcing & Screening</h1>
-                    <p className="col-md-7">
+                  <div className="item d-flex justify-content-between align-items-center row">
+                    <h1 className="col-md-5 col-sm-4">Sourcing & Screening</h1>
+                    <p className="col-md-7 ">
                       Efficient candidate search, Community based recruiters to
                       help in fast closures
                     </p>
                   </div>
-                  <div className="item d-flex justify-content-between align-items-center">
-                    <h1 className="col-md-5">Easy Governance</h1>
+                  <div className="item d-flex justify-content-between align-items-center row">
+                    <h1 className="col-md-5 col-sm-4">Easy Governance</h1>
                     <p className="col-md-7">
                       ATS tracks everything from requisition to onboarding,
                       giving delivery and support teams valuable data to make
@@ -158,7 +157,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="d-flex row innovation p-5 mt-5 align-items-center">
+          <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
             <div className="col-md-6 mt-5">
               <div className="home-content">
                 <p className="color-title mb-0">Our Services</p>
@@ -169,11 +168,11 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6 mt-5">
-              <p className="w-75 color-para">
+              <p className="w-md-75 color-para">
                 Explore a wide range of full-time, Pay per Hour, Pay per Hire
                 services across various geographies and industries.
               </p>
-              <p className="w-75">
+              <p className="w-md-75">
                 Zepul goes beyond just connecting you with candidates. We offer
                 a comprehensive suite of services designed to streamline your
                 entire recruitment process and empower you to make smarter
@@ -182,12 +181,12 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="cards mt-5  ">
+          <section className="cards mt-5  m-sm-5">
             <div className="row justify-content-center">
               {cardData.map((item, index) => {
                 return (
                   <div
-                    className="col-md-3  card-item d-flex align-items-end"
+                    className="col-md-4 col-xl-3  card-item d-flex align-items-end"
                     key={index}
                   >
                     <h3>{item.title}</h3>

@@ -4,16 +4,16 @@ import PropTypes from "prop-types";
 const Community = ({ data }) => {
   return (
     <Fragment>
-      <div className="row justify-content-center py-5">
-        <section className="row col-md-10 justify-content-between border-2 community" >
+      <div className="row justify-content-center py-5 p-sm-4 ">
+        <section className="row col-md-10 justify-content-between border-2 community m-5" >
           {data.map((item) => {
             return (
               <div
-                className="col-md-3 d-flex align-items-center flex-column border-end"
+                className="col-md-3 d-flex align-items-center flex-column border-md-end p-sm-3"
                 key={item.title}
               >
                 <h3>{item.title}</h3>
-                <p>{item.description}</p>
+                <p className="text-sm-center text-md-start">{item.description}</p>
               </div>
             );
           })}
