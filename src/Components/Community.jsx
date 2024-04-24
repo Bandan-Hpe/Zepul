@@ -9,7 +9,7 @@ const Community = ({ data }) => {
           {data.map((item) => {
             return (
               <div
-                className="col-md-3 d-flex align-items-center flex-column border-md-end p-sm-3"
+                className="col-md-4 d-flex align-items-sm-center align-items-md-start flex-column border-md-end p-sm-3"
                 key={item.title}
               >
                 <h3>{item.title}</h3>

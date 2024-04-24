@@ -22,7 +22,7 @@ const Commontabs = ({ data }) => {
           <Tabs
             value={value}
             onChange={handleChange}
-            className="tabs d-flex justify-content-between"
+            className="tabs d-flex gap-5 flex-wrap"
           >
             {tab_title.map((item) => (
               <Tab

@@ -82,4 +82,7 @@
   .card-item h3{
     font-size: 20px;
   }
+  .standout h1 {
+    font-size: 50px !important;
+}
 }

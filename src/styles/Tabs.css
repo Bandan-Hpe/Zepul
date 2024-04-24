@@ -1,6 +1,8 @@
 .MuiTabs-flexContainer {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+
 }
 .Mui-selected {
   color: #fff !important;
