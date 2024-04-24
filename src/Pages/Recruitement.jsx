@@ -3,7 +3,6 @@ import CommonHeroSection from "../Components/CommonHeroSection";
 import PartnerCarousel from "../Components/PartnerCarousel";
 import Standout from "../Components/Standout";
 import RecruitmentTabs from "../AllTabs/Recruitment";
-import Community from "../Components/Community";
 
 const Recruitment = () => {
   const data = {
@@ -25,26 +24,7 @@ const Recruitment = () => {
     ],
   };
 
-  const communityData = [
-    {
-      id: 1,
-      title: "Community-Driven Recruitment",
-      description:
-        "Our vibrant community actively collaborates to identify exceptional talent, fostering a diverse and dynamic team. Together, we shape the future",
-    },
-    {
-      id: 2,
-      title: "Elevated Operational Efficiency",
-      description:
-        "By eliminating the need for extensive screening and evaluation, skill-based matching optimizes resource allocation and maximizes your recruiter productivity.",
-    },
-    {
-      id: 3,
-      title: "Data-Driven Decision Making",
-      description:
-        "Precise matching enables informed hiring decisions based on objective criteria, fostering long-term employee success and organizational growth.",
-    },
-  ];
+ 
   return (
     <Fragment>
       <CommonHeroSection
@@ -78,7 +58,6 @@ const Recruitment = () => {
         </section>
       </div>
       <RecruitmentTabs />
-      <Community data={communityData} />
 
       <Standout data={data} />
     </Fragment>

@@ -77,7 +77,6 @@ const Companies = () => {
         </section>
       </div>
       <CompaniesTabs />
-      <Community data={communityData} />
 
       <Standout data={data} />
     </Fragment>

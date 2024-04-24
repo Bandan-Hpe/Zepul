@@ -40,13 +40,13 @@ const Footer = () => {
               <h4 className="title"> COMPANY</h4>
               <ul className="mt-4 p-0">
                 <li>
-                  <Link to="/">Terms</Link>
+                  <Link to="/terms">Terms</Link>
                 </li>
                 <li>
-                  <Link to="/companies">Privacy</Link>
+                  <Link to="/privacy">Privacy</Link>
                 </li>
                 <li>
-                  <Link to="/recruitment">Support</Link>
+                  <Link to="/support">Support</Link>
                 </li>
               </ul>
             </div>
@@ -87,11 +87,11 @@ const Footer = () => {
                   Jayabheri, Gachibowli, Hyderabad - 500032
                 </p>
               </div>
-              <div className="number d-flex gap-3 align-items-center mt-3">
+              <div className="number d-flex gap-3 align-items-center mt-2">
                 <FaMessage className="icon" />
                 <p className="mb-0">+91 542637437</p>
               </div>
-              <div className="email  d-flex gap-3 align-items-center mt-3">
+              <div className="email  d-flex gap-3 align-items-center mt-2">
                 <MdAlternateEmail className="icon" />
                 <p className="mb-0">support@zepul.com</p>
               </div>
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         <div className="row copy-right text-md-end px-5">
-          <p>© Copyright 202. All Rights Reserved by Zepul</p>
+          <p>© Copyright 2024. All Rights Reserved by Zepul</p>
         </div>
       </footer>
     </Fragment>

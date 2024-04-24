@@ -44,6 +44,7 @@ const Commontabs = ({ data }) => {
               <TabContent selectedContent={content} />
             </div>
           ))}
+          
         </div>
       </section>
     </Fragment>

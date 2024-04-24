@@ -5,7 +5,7 @@ const Community = ({ data }) => {
   return (
     <Fragment>
       <div className="row justify-content-center py-5 p-sm-4 ">
-        <section className="row col-md-10 justify-content-between border-2 community m-5" >
+        <section className="row col-md-10 justify-content-between border-2 community m-5">
           {data.map((item) => {
             return (
               <div
@@ -13,7 +13,9 @@ const Community = ({ data }) => {
                 key={item.title}
               >
                 <h3>{item.title}</h3>
-                <p className="text-sm-center text-md-start">{item.description}</p>
+                <p className="text-sm-center text-md-start">
+                  {item.description}
+                </p>
               </div>
             );
           })}
