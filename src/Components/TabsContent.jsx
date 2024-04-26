@@ -11,7 +11,7 @@ const TabContent = ({ selectedContent }) => {
         <div className="col-md-6 d-flex justify-content-center">
           <img src={images || ""} alt={title} className="img-fluid w-md-75" />
         </div>
-        <div className="col-md-6 d-flex flex-column justify-content-center align-items-md-start mt-sm-5">
+        <div className="col-md-6 d-flex flex-column justify-content-center align-items-md-start mt-sm-5 p-5">
           <h1 className="w-sm-100">{title}</h1>
           <p className="w-sm-100">{description}</p>
           <div className="btn-grp d-flex">
@@ -19,12 +19,14 @@ const TabContent = ({ selectedContent }) => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center py-5 p-sm-4">
-        <section className="row col-md-10 justify-content-start border-2 community m-5">
+      <div className="row justify-content-center   py-md-5">
+        <section className="row col-md-12 justify-content-start border-2 community m-5">
           {Array.isArray(communityData) &&
             communityData.map((item) => (
               <div
-                className="col-md-4 d-flex align-items-sm-center align-items-md-start flex-column border-md-end p-sm-3"
+                className={`col-md-4 d-flex align-items-sm-center align-items-md-start flex-column  p-sm-3 ${
+                  item.id === 1 || item.id === 2 ? "border-end" : ""
+                }`}
                 key={item.title}
               >
                 <h3>{item.title}</h3>

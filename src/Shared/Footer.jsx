@@ -87,11 +87,11 @@ const Footer = () => {
                   Jayabheri, Gachibowli, Hyderabad - 500032
                 </p>
               </div>
-              <div className="number d-flex gap-3 align-items-center mt-2">
+              <div className="number d-flex gap-3 align-items-center mt-3">
                 <FaMessage className="icon" />
                 <p className="mb-0">+91 542637437</p>
               </div>
-              <div className="email  d-flex gap-3 align-items-center mt-2">
+              <div className="email  d-flex gap-3 align-items-center mt-3">
                 <MdAlternateEmail className="icon" />
                 <p className="mb-0">support@zepul.com</p>
               </div>
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="row copy-right text-md-end px-5">
+        <div className="row copy-right text-md-end px-3">
           <p>© Copyright 2024. All Rights Reserved by Zepul</p>
         </div>
       </footer>

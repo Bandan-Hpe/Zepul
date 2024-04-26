@@ -4,6 +4,10 @@ footer {
 }
 footer p {
   color: white;
+  font-size:15px;
+}
+.list1 ul li {
+  margin-top:1rem;
 }
 hr {
   height: 1px;
@@ -22,4 +26,7 @@ footer .logo p {
 }
 .icon:hover {
   color: #fff;
+}
+.copy-right{
+  font-size:15px;
 }

@@ -42,4 +42,6 @@ a {
   padding: 1.5rem;
   border-radius: 25px;
 }
-
+.MuiButtonBase-root {
+  font-size: 13px !important;
+}

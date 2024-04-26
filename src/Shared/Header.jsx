@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Fragment>
-      <div className="container-fluid">
-        <div className="d-flex justify-md-content-center m-3 align-items-center justify-content-sm-between header">
+      <div className="container-fluid d-flex justify-content-between">
+        <div className="d-flex justify-md-content-center  align-items-center justify-content-sm-between header col-md-12 col-sm-12 w-100">
           <div className=" logo">
             <Link to="/">
             <img

@@ -62,7 +62,7 @@ const Home = () => {
               boost the effectiveness of human intervention
             </h1>
           </section>
-          <section className="d-flex row innovation p-md-5  align-items-center">
+          <section className="d-flex row innovation py-md-5  align-items-center">
             <div className="col-md-6 mt-5">
               <div className="home-content">
                 <p className="color-title mb-0">Unlocking Innovation</p>
@@ -80,8 +80,8 @@ const Home = () => {
               </p>
             </div>
           </section>
-          <section className="whats-inside p-md-5 d-flex row justify-content-around">
-            <div className="col-md-5">
+          <section className="whats-inside d-flex row justify-content-around">
+            <div className="col-md-6">
               <h1 className="">See What's inside</h1>
               <p>
                 Uncover the features that unlock efficient and effective
@@ -99,13 +99,13 @@ const Home = () => {
                 })}
               </div>
             </div>
-            <div className="col-md-5 position-relative d-flex justify-content-center">
+            <div className="col-md-6 position-relative d-flex justify-content-center">
               <div className="home-img  top-0 "></div>
             </div>
           </section>
           <section className="what-we-are-solving    mt-5">
-            <div className="row justify-content-around">
-              <div className="col-md-4   d-flex justify-content-center mt-5">
+            <div className="row justify-content-between">
+              <div className="col-md-6   d-flex justify-content-center mt-5">
                 <div className="home-img3"></div>
               </div>
               <div className="col-md-6 mt-5 p-sm-5">
@@ -157,7 +157,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
+          <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
             <div className="col-md-6 mt-5">
               <div className="home-content">
                 <p className="color-title mb-0">Our Services</p>
@@ -181,8 +181,8 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="cards mt-5  m-sm-5">
-            <div className="row justify-content-center">
+          <section className="cards mt-5  m-sm-5 m-md-1">
+            <div className="row justify-content-between">
               {cardData.map((item, index) => {
                 return (
                   <div

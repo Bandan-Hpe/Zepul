@@ -17,7 +17,7 @@ const Commontabs = ({ data }) => {
 
   return (
     <Fragment>
-      <section className="tabs m-md-5">
+      <section className="tabs mt-md-5">
         <div className="container-fluid">
           <Tabs
             value={value}

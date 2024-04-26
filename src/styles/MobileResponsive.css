@@ -41,6 +41,12 @@
   }
 }
 @media screen and (max-width: 568px) {
+
+  .card-item{
+    margin-top:1rem  !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+  }
   .header {
     display: flex;
     justify-content: space-between;
@@ -79,10 +85,17 @@
   .home-img2 {
     display: none;
   }
-  .card-item h3{
+  .card-item h3 {
     font-size: 20px;
   }
   .standout h1 {
     font-size: 50px !important;
+  }
 }
+
+@media (min-width: 576px) {
+ 
+  .container-sm {
+    max-width: 100% !important;
+  }
 }

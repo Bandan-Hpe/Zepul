@@ -38,7 +38,7 @@ const Recruitment = () => {
         <PartnerCarousel />
       </div>
       <div className="row">
-        <section className="d-flex row innovation p-md-5 mt-5 align-items-center">
+        <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
           <div className="col-md-6">
             <div className="home-content">
               <p className="color-title mb-0">Recruit smarter, grow faster</p>

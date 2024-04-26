@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <Fragment>
       <div className="container-fluid">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-md-5 col-sm-12 col-xl-4">
+        <div className="row d-flex justify-content-between align-items-center">
+          <div className="col-md-6 col-sm-12 col-xl-5">
             <div className="content">
               <h1 className="hero-title">
                 The Future of <br />

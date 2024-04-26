@@ -7,11 +7,14 @@ import Footer from "../Shared/Footer";
 const Layout = () => {
   return (
     <Fragment>
+      <div className="container p-0">
       <TopScroller />
       <Header />
       <Router />
 
       <Footer />
+      </div>
+    
     </Fragment>
   );
 };
