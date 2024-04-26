@@ -45,3 +45,7 @@ a {
 .MuiButtonBase-root {
   font-size: 13px !important;
 }
+.content-privacy ul{
+  list-style-type: disc !important;
+
+}

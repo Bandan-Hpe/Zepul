@@ -13,18 +13,19 @@ const Support = lazy(() => import("../Pages/Policy/Support"));
 const Router = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Loader />}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/companies" element={<Companies />} />
-          <Route path="/recruitment" element={<Recruitement />} />
-          <Route path="/jobseeker" element={<JobsSeeker />} />
-          <Route path="privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/support" element={<Support />} />
-          <Route path="/*" element={<Home />} />
-        </Routes>
-      </Suspense>
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/companies" element={<Companies />} />
+            <Route path="/recruitment" element={<Recruitement />} />
+            <Route path="/jobseeker" element={<JobsSeeker />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/*" element={<Home />} />
+          </Routes>
+        </Suspense>
+  
     </Fragment>
   );
 };

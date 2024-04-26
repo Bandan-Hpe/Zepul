@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <Fragment>
       <div className="container-fluid d-flex justify-content-between">
+        <div className="container">
         <div className="d-flex justify-md-content-center  align-items-center justify-content-sm-between header col-md-12 col-sm-12 w-100">
           <div className=" logo">
             <Link to="/">
@@ -65,6 +66,9 @@ const Header = () => {
             <button className="sign-in-button btn">Sign In</button>
           </div>
         </div>
+
+        </div>
+      
       </div>
     </Fragment>
   );

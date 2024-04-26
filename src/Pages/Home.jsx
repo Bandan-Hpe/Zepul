@@ -49,6 +49,7 @@ const Home = () => {
   ];
   return (
     <Fragment>
+      <div className="container">
       <div className="row ">
         <HeroSection />
         <PartnerCarousel />
@@ -197,6 +198,8 @@ const Home = () => {
           </section>
         </div>
       </div>
+      </div>
+     
     </Fragment>
   );
 };
