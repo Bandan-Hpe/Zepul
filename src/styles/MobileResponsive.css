@@ -41,9 +41,8 @@
   }
 }
 @media screen and (max-width: 568px) {
-
-  .card-item{
-    margin-top:1rem  !important;
+  .card-item {
+    margin-top: 1rem !important;
     margin-left: 0rem !important;
     margin-right: 0rem !important;
   }
@@ -94,8 +93,16 @@
 }
 
 @media (min-width: 576px) {
- 
   .container-sm {
     max-width: 100% !important;
+  }
+}
+
+@media (max-width: 1210px) {
+  .serviceBox .title {
+    font-size: 16px !important;
+  }
+  .serviceBox .description {
+    font-size: 14px !important;
   }
 }

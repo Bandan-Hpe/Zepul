@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "../styles/Header.css";
 import { Link } from "react-router-dom";
+import { FaBars, FaBurger } from "react-icons/fa6";
 const Header = () => {
   return (
     <Fragment>
@@ -10,7 +11,7 @@ const Header = () => {
           <div className=" logo">
             <Link to="/">
             <img
-              src="https://s3-alpha-sig.figma.com/img/eee8/9dc4/1323c23ee01cb6fa4ad0463be5d9598c?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bw3jnOktawIF-f-eyYG-iWxLCnMtPK86unqsCSSBJSLTK7OkIkOXvvmW3yGRCNd4aVU-AKYybhnxYbkYTDZR8fxbvOoD~WgCoiKQt7LZ694l95nyXVWfeUYVxuHeE7O5O7Qy76SIPy022c9QS6a8G9vm3P23UeD0Rbq9Qk~cbIEXSbZD~ZIXdfG-CDCV6z8sCx6X4Fhfuvv-kWZOP2Ucn6eu3zgI4D9ZgC484Twtl23YAt8bi96OdmVV6y~KcaQFhedVCds4OuJc-euYLFgz6N3KYqqSHtwie8wvs3LV2o6Z9dW2IGHUoI4dxGy0e24A8xItwtjwxieIcZ4H9CJl0w__"
+              src="/assets/logo.png"
               alt="logo"
             /></Link>
            
@@ -39,11 +40,11 @@ const Header = () => {
           <nav className="mob-nav ">
             <button
               type="button"
-              className="btn dropdown-toggle"
+              className="btn fs-4 border-0"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Menu
+              <FaBars/>
             </button>
             <ul className=" dropdown-menu ">
               <li className="nav-item">

@@ -82,9 +82,63 @@
   background-color: #e3e3e3;
   margin: 1rem;
   border-radius: 16px;
-  
 }
-.card-item h3{
-  font-size:22px;
-  padding:.3rem .3rem
+.card-item h3 {
+  font-size: 22px;
+  padding: 0.3rem 0.3rem;
+}
+
+.serviceBox {
+  color: var(--blue);
+  background: linear-gradient(to top, var(--blue) 9%, var(--white) 0%);
+  font-family: "Zen Maru Gothic", sans-serif;
+  text-align: center;
+  padding: 30px 25px;
+  border-radius: 30px 30px;
+  position: relative;
+  z-index: 1;
+  height:340px;
+}
+
+.serviceBox img{
+  width: 80px;
+
+}
+.serviceBox:before {
+  content: "";
+  background: #e3e3e3;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border-radius: 25px 25px;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.serviceBox .title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+.serviceBox .description {
+  color: #444;
+  font-size: 16px;
+  line-height: 22px;
+}
+.serviceBox.blue {
+  --main-color: #359bc8;
+}
+.serviceBox.yellow {
+  --main-color: #f37f12;
+}
+.serviceBox.purple {
+  --main-color: #5557b4;
+}
+@media only screen and (max-width: 990px) {
+  .serviceBox {
+    margin: 0 10px 30px;
+  }
 }
