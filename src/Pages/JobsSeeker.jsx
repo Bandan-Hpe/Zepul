@@ -32,7 +32,7 @@ const JobsSeeker = () => {
         Career with Zepul"
           subtitle=" Lorem ipsum dolor sit amet consectetur. Vitae quam nunc fames pulvinar leo nulla lorem fringilla. Nisl pulvinar adipiscing orci felis nam. Malesuada curabitur iaculis mauris diam eu. Magna arcu vitae non gravida est."
           btnText="Become Job seeker"
-          image="/assets/jobs.png"
+          image="/assets/21. Shape your  Career with Zepul.png"
         />
         <div className="mt-5">
           <PartnerCarousel />

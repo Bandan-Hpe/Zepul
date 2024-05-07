@@ -16,7 +16,7 @@ export const RecruiterData = {
   tab_Content: [
     {
       id: 1,
-      images: "/assets/companies.png",
+      images: "/assets/18. Optimization of resources.png",
       title:
         "Unlocking Efficiency: Optimizing Resources for Maximum Business Impact",
       description:
@@ -46,7 +46,7 @@ export const RecruiterData = {
     },
     {
       id: 2,
-      images: "/assets/companies.png",
+      images: "/assets/19. Opportunity to explore global markets.png",
       title: "Expanding Your Horizons: Exploring Global Market Opportunities",
       description:
         "Zepul empowers you to transcend geographical limitations and unlock the full potential of the global marketplace",
@@ -75,7 +75,7 @@ export const RecruiterData = {
     },
     {
       id: 3,
-      images: "/assets/companies.png",
+      images: "/assets/20. Decrease in marketing cost.png",
       title:
         " Streamline Acquisition, Reduce Costs: Cultivating a Sustainable Recruitment Strategy",
       description:

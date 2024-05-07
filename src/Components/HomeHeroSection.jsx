@@ -6,7 +6,7 @@ const HeroSection = () => {
     <Fragment>
       <div className="container-fluid">
         <div className="row d-flex justify-content-between align-items-center">
-          <div className="col-md-6 col-sm-12 col-xl-5">
+          <div className="col-md-6 col-sm-12 col-xl-5 ">
             <div className="content">
               <h1 className="hero-title">
                 The Future of <br />
@@ -26,9 +26,9 @@ const HeroSection = () => {
               <button className="learn-more-button hero">Learn more</button>
             </div>
           </div>
-          <div className="col-md-5 col-sm-12 col-xl-7">
+          <div className="col-md-5 col-sm-12 col-xl-7 order-lg-2 order-sm-first ">
             <img
-              src="https://s3-alpha-sig.figma.com/img/130f/345f/d05a95d8cd1dda2d840e22930f478102?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=euT86bb4TfMtIHg2KZsPCqS9hN5GHbkb0v9X~muqeNDdBajn5rOtQsW2AjYomJhLMtNFSefB3vuwLEV8h~J8-0sKTr1xgCJP4l3Bbj5cKE5JlBaL0wN~THrPZa5tSdSMh5WXwYtIqW4CI0KP8zPlJGQZgUGYwrfrJmB52MyYONKFzXKMnjairxTsWH52cEpDjzw6krJKH6aayZaXRkiV~pwFfq2vYPP9mw9Ss75kjlG7tGyTokic0yfdyOi1ZDf4EtlgUskqOj8gy8vgZvZScoKRDJMg7hKpLwJ5WPB-x6MUIeQajvFM5e~4uuIIEmeFcosIjgqNSSKCc-uBIujUEw__"
+            src="/assets/1. The Future of recruitment is here.png"
               alt=""
               className="hero-img"
             />

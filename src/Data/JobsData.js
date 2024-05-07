@@ -16,7 +16,7 @@ export const JobsData = {
   tab_Content: [
     {
       id: 1,
-      images: "/assets/companies.png",
+      images: "/assets/22. Global Opportunities.png",
       title: "Explore Opportunities Worldwide: Your Global Job Search Partner",
       description:
         "Zepul's intuitive and user-friendly platform empowers candidates to navigate a vast landscape of job opportunities with ease. Our global job finder offers a clear and systematic search experience, allowing you to",
@@ -44,7 +44,7 @@ export const JobsData = {
     },
     {
       id: 2,
-      images: "/assets/companies.png",
+      images: "/assets/23. Easy tracking system.png",
       title:
         "Streamline Your Job Search: Track Applications and Stay Organized",
       description:
@@ -74,7 +74,7 @@ export const JobsData = {
     },
     {
       id: 3,
-      images: "/assets/companies.png",
+      images: "/assets/24. Swift Candidate Placement.png",
       title:
         " Accelerate Your Career Journey: Swift and Dedicated Candidate Placement",
       description:

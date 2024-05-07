@@ -28,7 +28,7 @@ export const CompaniesData = {
   tab_Content: [
     {
       id: 1,
-      images: "/assets/companies.png",
+      images: "/assets/11. Community based Recruitment.png",
       title:
         "Leveraging Expertise: Optimizing Recruitment Through Skill-Based Matching",
       description:
@@ -57,7 +57,7 @@ export const CompaniesData = {
     },
     {
       id: 2,
-      images: "/assets/companies.png",
+      images: "/assets/12. Perfect Match Database.png",
       title:
         "Cultivating a Tailored Talent Pool: Harnessing the Power of Referrals and Active Job Seekers",
       description:
@@ -87,7 +87,7 @@ export const CompaniesData = {
     },
     {
       id: 3,
-      images: "/assets/companies.png",
+      images: "/assets/13. Easy governance.png",
       title:
         "Empowering Stakeholders: Fostering Transparency and Data-Driven Decisions",
       description:
@@ -117,7 +117,7 @@ export const CompaniesData = {
     },
     {
       id: 4,
-      images: "/assets/companies.png",
+      images: "/assets/14. Synergize Productivity.png",
       title:
         "Unlocking Synergies: Boosting Productivity for Delivery and Recruitment Teams",
       description:
@@ -147,7 +147,7 @@ export const CompaniesData = {
     },
     {
       id: 5,
-      images: "/assets/companies.png",
+      images: "/assets/15. Improving Hire_s Impact.png",
       title:
         "Cultivating High-Impact Hires: Building Strategic Partnerships and Talent Networks",
       description:
@@ -176,7 +176,7 @@ export const CompaniesData = {
     },
     {
       id: 6,
-      images: "/assets/companies.png",
+      images: "/assets/16. Employer Branding.png",
       title:
         "Cultivating a Powerful Employer Brand: Attracting and Retaining Top Talent",
       description:

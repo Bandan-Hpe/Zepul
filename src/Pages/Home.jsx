@@ -30,21 +30,27 @@ const Home = () => {
   const cardData = [
     {
       title: "Expert Sourcing & Screening",
+      image: "/assets/4. Expert Sourcing & Screening.png",
     },
     {
       title: "Streamlined Interview Management",
+      image: "/assets/5. Streamlined Interview Management.png",
     },
     {
       title: "Comprehensive Assessments",
+      image: "/assets/6. Comprehensive Assessments.png",
     },
     {
       title: "  Dedicated Negotiation Team",
+      image: "/assets/7. Dedicated  Negotiation Team.png",
     },
     {
       title: "Real-Time Tracking System",
+      image: "/assets/8. Real-Time Tracking System.png",
     },
     {
       title: "Seamless Background Verification",
+      image: "/assets/9. Seamless Background Verification.png",
     },
   ];
   return (
@@ -104,13 +110,21 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-md-6 position-relative d-flex justify-content-center">
-                <div className="home-img  top-0 "></div>
+                <img
+                  src="/assets/2. Experience the  Power of Zepul_s Features.png"
+                  alt=""
+                  className="w-100"
+                />
               </div>
             </section>
             <section className="what-we-are-solving    mt-5">
               <div className="row justify-content-between">
                 <div className="col-md-6   d-flex justify-content-center mt-5">
-                  <div className="home-img3"></div>
+                  <img
+                    src="/assets/3. Simplifying Complexities.png"
+                    alt=""
+                    className="w-100"
+                  />
                 </div>
                 <div className="col-md-6 mt-5 p-sm-5">
                   <div className="home-content">
@@ -239,10 +253,12 @@ const Home = () => {
                 {cardData.map((item, index) => {
                   return (
                     <div
-                      className="col-md-4 col-xl-3  card-item d-flex align-items-end"
+                      className="col-md-4 col-xl-3 card-item d-flex   flex-column"
                       key={index}
+                      style={{ background: `url(${item.image})` }}
                     >
-                      <h3>{item.title}</h3>
+                      <img src={item.image} alt="" className="w-100" />
+                      <h3 className="  ">{item.title}</h3>
                     </div>
                   );
                 })}

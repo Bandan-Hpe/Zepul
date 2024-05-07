@@ -50,3 +50,15 @@ a {
   list-style-type: disc !important;
 
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #70505029;
+}

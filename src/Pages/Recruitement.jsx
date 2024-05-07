@@ -32,7 +32,7 @@ const Recruitment = () => {
         Recruitment Partner"
           subtitle="Empower your business with the future of recruitment. Partner with Zepul and unlock innovative solutions, a curated talent pool, and data-driven insights to build winning teams and propel your organization towards sustainable growth.."
           btnText="Become Recruitment"
-          image="/assets/recruiter.png"
+          image="/assets/17. Become a  Recruitment Partner.png"
         />
         <div className="mt-5">
           <PartnerCarousel />
