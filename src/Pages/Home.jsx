@@ -6,14 +6,14 @@ import PartnerCarousel from "../Components/PartnerCarousel";
 const Home = () => {
   const data = [
     {
-      title: "Streamlined Recruitment",
+      title: "One Stop Shop",
       description:
         "Your One-Stop Shop from Requisition to Onboarding: Simplify Your Hiring Process Today.",
     },
     {
       title: "Effortless Workflow",
       description:
-        "Dedicated Account Manager to simplify operations and boost productivity.",
+        "The sequence of recruitment lifecycle managed under a single platform, backed by well defined processes, procedures & exceptional account management.",
     },
     {
       title: "Seamless Governance with Free ATS",
@@ -61,18 +61,27 @@ const Home = () => {
           <PartnerCarousel />
 
           <div className="home p-0 ">
-            <section className="intro d-flex  mt-5 p-5 ">
-              <h1>
-                Zepul is a Platform as a Service (PAAS) model that stays true to
-                the legacy paradigm while integrating technology, policies &
-                procedures to streamline hiring processes, reduce pain points,
-                and boost the effectiveness of human intervention
-              </h1>
+            <section className="intro   mt-5 p-5 ">
+              <h4 className="fw-bold">Who We Are</h4>
+              <p className="text-white text">
+                Zepul is an end to end Talent Acquisition Platform as a Service
+                (PAAS) that stays true to the legacy paradigm while integrating
+                technology, policies & procedures to streamline hiring
+                processes, reduce pain points, and boost the effectiveness of
+                human intervention across the Talent Acquisition lifecycle.
+              </p>
+              <p className="text-white">
+                Our on-demand community-based recruitment helps in precise skill
+                matching as we create an active and pertinent database from
+                active job seekers and referrals.Zepul stands out as its whole
+                lifecycle is founded on well-defined processes and efficient
+                client account management.
+              </p>
             </section>
             <section className="d-flex row innovation py-md-5  align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
-                  <p className="color-title mb-0">Unlocking Innovation</p>
+                  <p className="color-title mb-0 fw-semibold">Unlocking Innovation</p>
                   <h1>
                     Experience the
                     <br /> Power of Zepul 's Features
@@ -128,7 +137,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 mt-5 p-sm-5">
                   <div className="home-content">
-                    <p className="color-title mb-0">What we are Solving</p>
+                    <p className="color-title mb-0 fw-semibold">Why Businesses Choose Us</p>
                     <h1>
                       Simplifying Complexities <br />
                       in Recruitment
@@ -227,7 +236,7 @@ const Home = () => {
             <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
-                  <p className="color-title mb-0">Our Services</p>
+                  <p className="color-title mb-0 fw-semibold">What We Offer</p>
                   <h1>
                     Unlock Powerful Solutions <br />
                     Designed for Your Hiring Needs

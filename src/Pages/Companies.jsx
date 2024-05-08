@@ -18,7 +18,7 @@ const Companies = () => {
         subtitle: "Increased Hiring Speed",
       },
       {
-        title: "20%",
+        title: "80%",
         subtitle: "Improved Quality Hire.",
       },
     ],
@@ -40,7 +40,7 @@ const Companies = () => {
           <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
             <div className="col-md-6">
               <div className="home-content">
-                <p className="color-title mb-0">Revolutionize hiring</p>
+                <p className="color-title mb-0 fw-semibold">Revolutionize hiring</p>
                 <h1>
                   Innovative recruitment to build <br />
                   your dream team faster.

@@ -37,7 +37,7 @@ export const CompaniesData = {
       communityData: [
         {
           id: 1,
-          title: "Enhanced Onboarding Efficiency",
+          title: "Enhanced Hiring Experience",
           description:
             "Recruiters are equipped with targeted candidate pools, allowing for a streamlined onboarding process and faster integration into the team.",
         },

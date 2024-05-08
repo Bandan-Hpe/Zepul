@@ -18,7 +18,7 @@ const Standout = ({ data }) => {
                 className="col-md-4 col-sm-4 d-flex align-items-md-center flex-column align-items-start "
                 key={item.title}
               >
-                <h1>{item.title}</h1>
+                <h1 className="fw-semibold">{item.title}</h1>
                 <p className="text-white">{item.subtitle}</p>
               </div>
             );

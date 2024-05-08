@@ -31,25 +31,12 @@ const Footer = () => {
               <img src="/assets/image.png" alt="logo" />
               <p>
                 Zepul is committed to eliminating all recruitment pain points
-                and increasing the effectiveness of human intervention.
+                and increasing the effectiveness of human intervention across
+                the Talent Acquisition lifecycle.
               </p>
             </div>
           </div>
           <div className="col-md-6 d-md-flex justify-content-md-evenly align-items-center align-items-sm-start ">
-            <div className="list1">
-              <h4 className="title"> COMPANY</h4>
-              <ul className="mt-4 p-0">
-                <li>
-                  <Link to="/terms">Terms</Link>
-                </li>
-                <li>
-                  <Link to="/privacy">Privacy</Link>
-                </li>
-                <li>
-                  <Link to="/support">Support</Link>
-                </li>
-              </ul>
-            </div>
             <div className="list1">
               <h4 className="title"> COMPANY</h4>
               <ul className="mt-4 p-0">
@@ -67,10 +54,27 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div className="list1">
+              <h4 className="title text-uppercase"> Legal</h4>
+              <ul className="mt-4 p-0">
+                <li>
+                  <Link to="/terms">Terms</Link>
+                </li>
+                <li>
+                  <Link to="/privacy">Privacy</Link>
+                </li>
+                <li>
+                  <Link to="/support">Support</Link>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="col-md-3">
             <div className="icons d-flex gap-5">
-              <Link to="https://www.facebook.com/tryzepul?mibextid=ZbWKwL " target="_blank">
+              <Link
+                to="https://www.facebook.com/tryzepul?mibextid=ZbWKwL "
+                target="_blank"
+              >
                 <FaFacebook className="icon" />
               </Link>
               <Link to="https://www.instagram.com/tryzepul/" target="_blank">
@@ -93,7 +97,7 @@ const Footer = () => {
               </div>
               <div className="email  d-flex gap-3 align-items-center mt-3">
                 <MdAlternateEmail className="icon" />
-                <p className="mb-0">support@zepul.com</p>
+                <p className="mb-0">info@zepul.com</p>
               </div>
             </div>
           </div>

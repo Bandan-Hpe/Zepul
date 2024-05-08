@@ -19,7 +19,7 @@ const JobsSeeker = () => {
       },
       {
         title: "20%",
-        subtitle: "Access to Global Opportunities",
+        subtitle: " Increase Access to Global Opportunities",
       },
     ],
   };
@@ -30,8 +30,11 @@ const JobsSeeker = () => {
         <CommonHeroSection
           title="Shape your 
         Career with Zepul"
-          subtitle=" Lorem ipsum dolor sit amet consectetur. Vitae quam nunc fames pulvinar leo nulla lorem fringilla. Nisl pulvinar adipiscing orci felis nam. Malesuada curabitur iaculis mauris diam eu. Magna arcu vitae non gravida est."
-          btnText="Become Job seeker"
+          subtitle=" Find your dream job at Zepul. Explore opportunities, connect with top companies across the Globe, and showcase your skills. Launch your career journey today.
+
+
+          "
+          btnText="Get Hired"
           image="/assets/21. Shape your  Career with Zepul.png"
         />
         <div className="mt-5">
@@ -41,7 +44,7 @@ const JobsSeeker = () => {
           <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
             <div className="col-md-6">
               <div className="home-content">
-                <p className="color-title mb-0">Unlocking Innovation</p>
+                <p className="color-title mb-0 fw-semibold">Unlocking Innovation</p>
                 <h1>
                   Land your dream job, join Zepul's <br />
                   thriving talent community.
