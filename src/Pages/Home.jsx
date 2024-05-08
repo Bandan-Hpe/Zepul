@@ -81,7 +81,9 @@ const Home = () => {
             <section className="d-flex row innovation py-md-5  align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
-                  <p className="color-title mb-0 fw-semibold">Unlocking Innovation</p>
+                  <p className="color-title mb-0 fw-semibold">
+                    Unlocking Innovation
+                  </p>
                   <h1>
                     Experience the
                     <br /> Power of Zepul 's Features
@@ -137,7 +139,9 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 mt-5 p-sm-5">
                   <div className="home-content">
-                    <p className="color-title mb-0 fw-semibold">Why Businesses Choose Us</p>
+                    <p className="color-title mb-0 fw-semibold">
+                      Why Businesses Choose Us
+                    </p>
                     <h1>
                       Simplifying Complexities <br />
                       in Recruitment
@@ -145,8 +149,8 @@ const Home = () => {
                     <p className="w-md-75 mt-sm-4">
                       Struggling with a slow, inefficient recruitment process?
                       You're not alone. Finding the right talent can be
-                      time-consuming and frustrating. Here are some common
-                      challenges we help you overcome
+                      time-consuming and frustrating. Choose Zepul to overcome
+                      the Talent Acquisition challenges.
                     </p>
                   </div>
                   <div className="inner-content mt-sm-5">
