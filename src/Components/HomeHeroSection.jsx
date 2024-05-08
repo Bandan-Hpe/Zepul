@@ -13,12 +13,9 @@ const HeroSection = () => {
                 Recruitment Is Here.
               </h1>
               <p className="hero-text mt-3 ">
-                Achieve your hiring goals
-                <span className="fs-4 text-primary fw-bold">10x</span> faster by
+                Achieve your hiring goals <span className="fs-4 text-primary fw-bold">10x</span> faster by
                 outsourcing talent acquisition to us, right from requisition to
-                onboarding
-                <br />
-                screening , interview management and evaluations.
+                onboarding screening , interview management and evaluations.
               </p>
               <p className="hero-text mt-3">
                 Leave the hiring to us, so you can focus on what matters the
