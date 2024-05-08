@@ -39,7 +39,7 @@ const Commontabs = ({ data }) => {
             <div
               key={content.id}
               hidden={content.id !== value}
-              className="my-5"
+              className="my-1"
             >
               <TabContent selectedContent={content} />
             </div>

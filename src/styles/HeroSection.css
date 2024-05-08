@@ -9,11 +9,11 @@
 .sign-in-button.hero {
   background-color: var(--blue);
   color: white;
-  width: 233px;
   height: 64px;
   font-size: 20px;
   font-weight: 700;
   border-radius: 8px;
+  padding: 0px 20px;
 }
 .learn-more-button.hero {
   background-color: white;

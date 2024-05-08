@@ -70,10 +70,10 @@ const Footer = () => {
           </div>
           <div className="col-md-3">
             <div className="icons d-flex gap-5">
-              <Link to="/">
+              <Link to="https://www.facebook.com/tryzepul?mibextid=ZbWKwL " target="_blank">
                 <FaFacebook className="icon" />
               </Link>
-              <Link to="/">
+              <Link to="https://www.instagram.com/tryzepul/" target="_blank">
                 <FaInstagram className="icon" />
               </Link>
               <Link to="/">
@@ -89,7 +89,7 @@ const Footer = () => {
               </div>
               <div className="number d-flex gap-3 align-items-center mt-3">
                 <FaMessage className="icon" />
-                <p className="mb-0">+91 542637437</p>
+                <p className="mb-0">+91 9182289998</p>
               </div>
               <div className="email  d-flex gap-3 align-items-center mt-3">
                 <MdAlternateEmail className="icon" />

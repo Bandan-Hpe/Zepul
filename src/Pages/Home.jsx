@@ -253,11 +253,11 @@ const Home = () => {
                 {cardData.map((item, index) => {
                   return (
                     <div
-                      className="col-md-4 col-xl-3 card-item d-flex   flex-column"
+                      className="col-md-4 col-xl-3 card-item d-flex   flex-column justify-content-center align-items-center gap-3"
                       key={index}
                       style={{ background: `url(${item.image})` }}
                     >
-                      <img src={item.image} alt="" className="w-100" />
+                      <img src={item.image} alt="" className="w-50" />
                       <h3 className="  ">{item.title}</h3>
                     </div>
                   );

@@ -125,24 +125,16 @@
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 0 12px;
+  margin: 10px 12px;
 }
 .serviceBox .description {
   color: #444;
   font-size: 16px;
   line-height: 22px;
 }
-.serviceBox.blue {
-  --main-color: #359bc8;
-}
-.serviceBox.yellow {
-  --main-color: #f37f12;
-}
-.serviceBox.purple {
-  --main-color: #5557b4;
-}
+
 @media only screen and (max-width: 990px) {
   .serviceBox {
-    margin: 0 10px 30px;
+    margin: 10px 12px;
   }
 }
