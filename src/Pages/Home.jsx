@@ -55,13 +55,13 @@ const Home = () => {
   ];
   return (
     <Fragment>
-      <div className="container">
+      <div className="container h-full">
         <div className="row ">
           <HeroSection />
           <PartnerCarousel />
 
           <div className="home p-0 ">
-            <section className="intro   mt-5 p-5 ">
+            <section className="intro   mt-5 px-5  py-3 ">
               <h4 className="fw-bold">Who We Are</h4>
               <p className="text-white text">
                 Zepul is an end to end Talent Acquisition Platform as a Service
@@ -78,10 +78,10 @@ const Home = () => {
                 client account management.
               </p>
             </section>
-            <section className="d-flex row innovation py-md-5  align-items-center">
+            <section className="d-flex row innovation py-md-2  align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
-                  <p className="color-title mb-0 fw-semibold">
+                  <p className="color-title mb-2 fw-semibold">
                     Unlocking Innovation
                   </p>
                   <h1>
@@ -114,7 +114,7 @@ const Home = () => {
                         key={index}
                       >
                         <h5>{item.title}</h5>
-                        <p className="mb-0">{item.description}</p>
+                        <p className="mb-0 ">{item.description}</p>
                       </div>
                     );
                   })}
@@ -129,68 +129,53 @@ const Home = () => {
               </div>
             </section>
             <section className="what-we-are-solving    mt-5">
+              <div className="row">
+                <div className="home-content">
+                  <p className="color-title mb-2 fw-semibold">
+                    Why Businesses Choose Us
+                  </p>
+                  <h1>
+                    Simplifying Complexities 
+                    in Recruitment
+                  </h1>
+                  <p className="w-md-75 mt-sm-4">
+                    Struggling with a slow, inefficient recruitment process?
+                    You're not alone. Finding the right talent can be
+                    time-consuming and frustrating. Choose Zepul to overcome the
+                    Talent Acquisition challenges.
+                  </p>
+                </div>
+              </div>
               <div className="row justify-content-between">
-                <div className="col-md-6   d-flex justify-content-center mt-5">
-                  <img
-                    src="/assets/3. Simplifying Complexities.png"
-                    alt=""
-                    className="w-100"
-                  />
-                </div>
-                <div className="col-md-6 mt-5 p-sm-5">
-                  <div className="home-content">
-                    <p className="color-title mb-0 fw-semibold">
-                      Why Businesses Choose Us
-                    </p>
-                    <h1>
-                      Simplifying Complexities <br />
-                      in Recruitment
-                    </h1>
-                    <p className="w-md-75 mt-sm-4">
-                      Struggling with a slow, inefficient recruitment process?
-                      You're not alone. Finding the right talent can be
-                      time-consuming and frustrating. Choose Zepul to overcome
-                      the Talent Acquisition challenges.
-                    </p>
-                  </div>
-                  <div className="inner-content mt-sm-5">
-                    <div className="item d-flex  align-items-center row">
-                      <h1 className="col-md-5 col-sm-4">Database</h1>
-                      <p className="col-md-7 ">
-                        Referral program: Top talent, fast. Free, pre-qualified
-                        candidates, minimal no-shows.
-                      </p>
-                    </div>
-                    <div className="item d-flex  align-items-center row">
-                      <h1 className="col-md-5 col-sm-4">Quality</h1>
-                      <p className="col-md-7 ">
-                        High quality database and profiles, community based
-                        recruiting partners.
-                      </p>
-                    </div>
-                    <div className="item d-flex justify-content-between align-items-center row">
-                      <h1 className="col-md-5 col-sm-4">
-                        Sourcing & Screening
-                      </h1>
-                      <p className="col-md-7 ">
-                        Efficient candidate search, Community based recruiters
-                        to help in fast closures
-                      </p>
-                    </div>
-                    <div className="item d-flex justify-content-between align-items-center row">
-                      <h1 className="col-md-5 col-sm-4">Easy Governance</h1>
-                      <p className="col-md-7">
-                        ATS tracks everything from requisition to onboarding,
-                        giving delivery and support teams valuable data to make
-                        data-driven hiring decisions.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <div className="col-md-6 d-flex justify-content-center mt-5"></div>
+                <div className="col-md-6 mt-5 p-sm-5"></div>
               </div>
             </section>
 
-            <section className="mt-5">
+            <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
+              <div className="col-md-6 mt-5">
+                <div className="home-content">
+                  <p className="color-title mb-2 fw-semibold">What We Offer</p>
+                  <h1>
+                    Unlock Powerful Solutions <br />
+                    Designed for Your Hiring Needs
+                  </h1>
+                </div>
+              </div>
+              <div className="col-md-6 mt-5">
+                <p className="w-md-75 color-para">
+                  Explore a wide range of full-time, Pay per Hour, Pay per Hire
+                  services across various geographies and industries.
+                </p>
+                <p className="w-md-75">
+                  Zepul goes beyond just connecting you with candidates. We
+                  offer a comprehensive suite of services designed to streamline
+                  your entire recruitment process and empower you to make
+                  smarter hiring decisions
+                </p>
+              </div>
+            </section>
+            <section className="">
               <div className="row">
                 <div className="col-md-6 col-sm-6 col-lg-3 cards">
                   <div className="serviceBox">
@@ -236,32 +221,7 @@ const Home = () => {
                 </div>
               </div>
             </section>
-
-            <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
-              <div className="col-md-6 mt-5">
-                <div className="home-content">
-                  <p className="color-title mb-0 fw-semibold">What We Offer</p>
-                  <h1>
-                    Unlock Powerful Solutions <br />
-                    Designed for Your Hiring Needs
-                  </h1>
-                </div>
-              </div>
-              <div className="col-md-6 mt-5">
-                <p className="w-md-75 color-para">
-                  Explore a wide range of full-time, Pay per Hour, Pay per Hire
-                  services across various geographies and industries.
-                </p>
-                <p className="w-md-75">
-                  Zepul goes beyond just connecting you with candidates. We
-                  offer a comprehensive suite of services designed to streamline
-                  your entire recruitment process and empower you to make
-                  smarter hiring decisions
-                </p>
-              </div>
-            </section>
-
-            <section className="cards mt-5  m-sm-5 m-md-1">
+            <section className="cards mt-5  ">
               <div className="row justify-content-between">
                 {cardData.map((item, index) => {
                   return (
@@ -270,7 +230,7 @@ const Home = () => {
                       key={index}
                       style={{ background: `url(${item.image})` }}
                     >
-                      <img src={item.image} alt="" className="w-50" />
+                      <img src={item.image} alt="" />
                       <h3 className="  ">{item.title}</h3>
                     </div>
                   );

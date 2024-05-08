@@ -31,7 +31,8 @@ a {
   color: inherit;
 }
 .row {
-  margin: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 .color-title {
   color: var(--blue);

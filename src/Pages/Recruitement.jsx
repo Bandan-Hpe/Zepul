@@ -41,9 +41,9 @@ const Recruitment = () => {
           <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
             <div className="col-md-6">
               <div className="home-content">
-                <p className="color-title mb-0 fw-semibold">Recruit smarter, grow faster</p>
+                <p className="color-title mb-2 fw-semibold">Recruit smarter, grow faster</p>
                 <h1>
-                  Expand Reach, & Drive Growth <br />
+                  Expand Reach, & Drive Growth 
                   Through Innovative Recruitment.
                 </h1>
               </div>

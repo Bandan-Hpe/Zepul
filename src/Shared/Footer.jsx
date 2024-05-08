@@ -2,7 +2,8 @@ import React, { Fragment } from "react";
 import "../styles/Footer.css";
 import { Link } from "react-router-dom";
 import { FaHome, FaInstagram, FaTwitter } from "react-icons/fa";
-import { FaFacebook, FaMessage } from "react-icons/fa6";
+
+import { FaFacebook, FaPhoneVolume } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 const Footer = () => {
@@ -11,17 +12,14 @@ const Footer = () => {
       <footer>
         <div className="row p-md-5 p-2">
           <div className="col-md-6">
-            <h1>
-              It's very simple to <br />
-              get started
-            </h1>
+            <h1>It's very simple to get started</h1>
             <p className="my-3">
               Our Cutting-Edge Feature Solutions Empower Efficiency <br />
               and Elevate Results. Discover the Difference Today
             </p>
           </div>
           <div className="col-md-6 d-flex justify-content-md-end align-items-center btn-grp">
-            <button className="sign-in-button hero">Sign In</button>
+            <button className="sign-in-button hero">Try Zepul</button>
           </div>
         </div>
         <hr />
@@ -80,7 +78,7 @@ const Footer = () => {
               <Link to="https://www.instagram.com/tryzepul/" target="_blank">
                 <FaInstagram className="icon" />
               </Link>
-              <Link to="/">
+              <Link to="https://x.com/tryzepul?t=a7vaOJwbEV_EnDwn9tNiAg&s=08">
                 <FaTwitter className="icon" />
               </Link>
             </div>
@@ -88,11 +86,11 @@ const Footer = () => {
               <div className="address d-flex gap-3 align-items-center">
                 <FaHome className="icon" />
                 <p className="mb-0">
-                  Jayabheri, Gachibowli, Hyderabad - 500032
+                  Floor 1, Jayabheri Enclave, Gachibowli, Hyderabad - 500032
                 </p>
               </div>
               <div className="number d-flex gap-3 align-items-center mt-3">
-                <FaMessage className="icon" />
+                <FaPhoneVolume className="icon" />
                 <p className="mb-0">+91 9182289998</p>
               </div>
               <div className="email  d-flex gap-3 align-items-center mt-3">

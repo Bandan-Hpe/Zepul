@@ -11,7 +11,7 @@ const Header = () => {
           <div className=" logo">
             <Link to="/">
             <img
-              src="/assets/logo.png"
+              src="/assets/logo.jpg"
               alt="logo"
             /></Link>
            
@@ -64,7 +64,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-            <button className="sign-in-button btn">Sign In</button>
+            <button className="sign-in-button btnn">Sign In</button>
           </div>
         </div>
 

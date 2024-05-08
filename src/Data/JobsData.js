@@ -20,7 +20,7 @@ export const JobsData = {
       title: "Explore Opportunities Worldwide: Your Global Job Search Partner",
       description:
         "Zepul's intuitive and user-friendly platform empowers candidates to navigate a vast landscape of job opportunities with ease. Our global job finder offers a clear and systematic search experience, allowing you to",
-      btn_txt: "Sign up",
+      btn_txt: "Get Hired",
       communityData: [
         {
           id: 1,
@@ -50,7 +50,7 @@ export const JobsData = {
       description:
         "Juggling multiple job applications can be overwhelming. Zepul simplifies your search with our easy-to-use tracking system:",
 
-      btn_txt: "Sign up",
+      btn_txt: "Get Hired",
       communityData: [
         {
           id: 1,
@@ -79,7 +79,7 @@ export const JobsData = {
         " Accelerate Your Career Journey: Swift and Dedicated Candidate Placement",
       description:
         "At Zepul, we believe in powering your career aspirations. Our dedicated teams are committed to expediting your placement by",
-      btn_txt: "Sign up",
+      btn_txt: "Get Hired",
       communityData: [
         {
           id: 1,

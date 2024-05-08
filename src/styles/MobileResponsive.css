@@ -41,6 +41,14 @@
   }
 }
 @media screen and (max-width: 568px) {
+
+  section{
+    margin-top: 50px !important;
+  }
+
+  .container{
+    margin-top:20px;
+  }
   .card-item {
     margin-top: 1rem !important;
     margin-left: 0rem !important;

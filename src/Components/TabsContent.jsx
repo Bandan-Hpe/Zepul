@@ -11,7 +11,7 @@ const TabContent = ({ selectedContent }) => {
         <div className="col-md-6 d-flex justify-content-center">
           <img src={images || ""} alt={title} className="img-fluid w-md-75" />
         </div>
-        <div className="col-md-6 d-flex flex-column justify-content-center align-items-md-start mt-sm-5 p-5">
+        <div className="col-md-6 d-flex flex-column justify-content-center align-items-md-start mt-sm-5 ">
           <h1 className="w-sm-100">{title}</h1>
           <p className="w-sm-100">{description}</p>
           <div className="btn-grp d-flex">

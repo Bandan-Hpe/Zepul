@@ -44,9 +44,9 @@ const JobsSeeker = () => {
           <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
             <div className="col-md-6">
               <div className="home-content">
-                <p className="color-title mb-0 fw-semibold">Unlocking Innovation</p>
+                <p className="color-title mb-2 fw-semibold">Unlocking Innovation</p>
                 <h1>
-                  Land your dream job, join Zepul's <br />
+                  Land your dream job, join Zepul's 
                   thriving talent community.
                 </h1>
               </div>

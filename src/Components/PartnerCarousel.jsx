@@ -35,7 +35,7 @@ const photos = [
 const PartnerCarousel = () => {
   const breakpoint = {
     310: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     768: {

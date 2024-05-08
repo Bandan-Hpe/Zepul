@@ -4,7 +4,9 @@ import Layout from "./Layout/Layout";
 const App = () => {
   return (
     <Fragment>
-      <Layout />
+      
+        <Layout />
+    
     </Fragment>
   );
 };
