@@ -2,6 +2,14 @@ import React, { Fragment } from "react";
 import "../styles/Home.css";
 import HeroSection from "../Components/HomeHeroSection";
 import PartnerCarousel from "../Components/PartnerCarousel";
+import {
+  FaUser,
+  FaHome,
+  FaSearch,
+  FaGlobe,
+  FaCheck,
+  FaCartPlus,
+} from "react-icons/fa";
 
 const Home = () => {
   const data = [
@@ -134,10 +142,7 @@ const Home = () => {
                   <p className="color-title mb-2 fw-semibold">
                     Why Businesses Choose Us
                   </p>
-                  <h1>
-                    Simplifying Complexities 
-                    in Recruitment
-                  </h1>
+                  <h1>Simplifying Complexities in Recruitment</h1>
                   <p className="w-md-75 mt-sm-4">
                     Struggling with a slow, inefficient recruitment process?
                     You're not alone. Finding the right talent can be
@@ -147,8 +152,71 @@ const Home = () => {
                 </div>
               </div>
               <div className="row justify-content-between">
-                <div className="col-md-6 d-flex justify-content-center mt-5"></div>
-                <div className="col-md-6 mt-5 p-sm-5"></div>
+                <div className="col-md-6 col-xl-6">
+                  <ul className="p-0">
+                    <li className="why-list">
+                      <FaHome />
+                      <span className="list-text">
+                        Use it all for free platform which includes ATS
+                      </span>
+                    </li>
+                    <li className="why-list">
+                      <FaUser />
+                      <span className="list-text">
+                        Dedicated Account Manager
+                      </span>
+                    </li>
+                    <li className="why-list">
+                      <FaSearch />
+                      <span className="list-text">
+                        Only active profiles and quality equals few dropouts
+                      </span>
+                    </li>
+                    <li className="why-list">
+                      <FaGlobe />
+                      <span className="list-text">Free Employer Branding</span>
+                    </li>
+                    <li className="why-list">
+                      <FaCheck />
+
+                      <span className="list-text">Easy to Adapt</span>
+                    </li>
+                    <li className="why-list">
+                      <FaCartPlus />
+                      <span className="list-text">
+                        One Stop Shop-Rights from Requisition to Onboarding
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-md-6 col-xl-6">
+                  <ul className="p-0">
+                    <li className="why-list2">
+                      <img src="/assets/why1.png" alt="" />
+                      <span>Great candidate Experience </span>
+                    </li>
+                    <li className="why-list2">
+                      <img src="/assets/why2.png" alt="" />
+                      <span>80% increase in productivity </span>
+                    </li>
+                    <li className="why-list2">
+                      <img src="/assets/why3.png" alt="" />
+                      <span> Data driven decision making</span>
+                    </li>
+                    <li className="why-list2">
+                      <img src="/assets/why4.png" alt="" />
+                      <span>50% improvement in quality</span>
+                    </li>
+                    <li className="why-list2">
+                      <img src="/assets/why5.png" alt="" />
+                      <span>Sharp decline in TAT</span>
+                    </li>
+                    <li className="why-list2">
+                      <img src="/assets/why6.png" alt="" />
+                      <span>Signi Cost Savings</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
