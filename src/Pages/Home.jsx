@@ -246,45 +246,62 @@ const Home = () => {
             <section className="">
               <div className="row">
                 <div className="col-md-6 col-sm-6 col-lg-3 cards">
-                  <div className="serviceBox">
-                    <img src="/assets/fulltime.png" alt="" />
+                  <div className="serviceBox position-relative">
+                    <div className="font">
+                      <img src="/assets/fulltime.png" alt="" />
 
-                    <h3 className="title">FullTime</h3>
-                    <p className="description">
-                      Candidate on customer payroll and payment to us would be a
-                      one time incident.(% of candidate CTC)
-                    </p>
+                      <h3 className="title">FullTime</h3>
+                    </div>
+                    <div className="back position-absolute">
+                      <p className="description text-white">
+                        Candidate on customer payroll and payment to us would be
+                        a one time incident.(% of candidate CTC)
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-6 col-lg-3 cards">
-                  <div className="serviceBox ">
-                    <img src="/assets/contractual.png" alt="" />
-                    <h3 className="title">Contractual</h3>
-                    <p className="description">
-                      Candidate on our payroll and payment to us would be
-                      monthly recurring.
-                    </p>
+                  <div className="serviceBox position-relative ">
+                    <div className="font">
+                      <img src="/assets/contractual.png" alt="" />
+                      <h3 className="title">Contractual</h3>
+                    </div>
+                    <div className="back position-absolute">
+                      <p className="description">
+                        Candidate on our payroll and payment to us would be
+                        monthly recurring.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-6 col-lg-3 cards">
-                  <div className="serviceBox">
-                    <img src="/assets/payper-hour.png" alt="" />
-                    <h3 className="title">PAY PER HOUR</h3>
-                    <p className="description">
-                      small scale project-we engage resources for the specified
-                      projects time and the payment would be on hourly basis.
-                    </p>
+                  <div className="serviceBox position-relative">
+                    <div className="font">
+                      <img src="/assets/payper-hour.png" alt="" />
+                      <h3 className="title">PAY PER HOUR</h3>
+                    </div>
+                    <div className="back position-absolute">
+                      <p className="description">
+                        Small scale project-we engage resources for the
+                        specified projects time and the payment would be on
+                        hourly basis.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-6 col-lg-3 cards">
-                  <div className="serviceBox yellow">
-                    <img src="/assets/projects.png" alt="" />
-                    <h3 className="title">Projects</h3>
-                    <p className="description">
-                      Medium to Large scale development projects wherein we take
-                      care of end to end project management including resource
-                      allocation untill the completion of projects.
-                    </p>
+                  <div className="serviceBox position-relative">
+                    <div className="font">
+                      <img src="/assets/projects.png" alt="" />
+                      <h3 className="title">Projects</h3>
+                    </div>
+                    <div className="back position-absolute">
+                      <p className="description">
+                        Medium to Large scale development projects wherein we
+                        take care of end to end project management including
+                        resource allocation untill the completion of projects.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

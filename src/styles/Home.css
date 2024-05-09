@@ -82,21 +82,22 @@
   margin: 1rem;
   border-radius: 16px;
   border: 1px solid #cdcdcd;
+  padding: 10px 0px 5px 0px;
 }
 .card-item h3 {
-  font-size: 22px;
+  font-size: 18px;
   padding: 0.3rem 0.3rem;
-  margin-top: -20px;
   margin-left: 1rem;
+  font-weight: 700;
 }
 
 .card-item img {
-  width: 40% !important;
+  width: 30% !important;
 }
 
 .serviceBox {
   color: var(--blue);
-  background: linear-gradient(to top, var(--blue) 9%, var(--white) 0%);
+  /* background: linear-gradient(to top, var(--blue) 9%, var(--white) 0%); */
   font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   padding: 30px 25px;
@@ -105,11 +106,14 @@
   z-index: 1;
   box-shadow: 0px 1px 15px 3px #e3e3e3;
 }
+.serviceBox:hover .back{
+  opacity: 1;
+}
 
 .serviceBox img {
   width: 80px;
 }
-.serviceBox:before {
+/* .serviceBox:before {
   content: "";
   background: #fff;
   width: calc(100% - 10px);
@@ -120,6 +124,18 @@
   top: 50%;
   left: 50%;
   z-index: -1;
+} */
+
+.back{
+  background-color: #0c48dfbc;
+  top:0;
+  left:0;
+  border-radius: 30px 30px;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+
 }
 
 .serviceBox .title {
@@ -127,7 +143,7 @@
   font-weight: 600;
   text-transform: uppercase;
   margin: 10px 12px;
-  transition: 0.8s ease-in;
+ 
 
 }
 
@@ -136,11 +152,10 @@
 
 .serviceBox .description {
   opacity: 0;
-  color: #444;
   font-size: 16px;
   line-height: 22px;
-  display: none; 
-  transition: opacity 0.8s ease-in; 
+  font-weight: bold;
+  color: #fff;
 }
 
 .serviceBox:hover .description {
@@ -149,22 +164,26 @@
 }
 
 .why-list {
-  margin: 1rem;
+  margin: 1.5rem;
   font-size: 1.5rem;
 }
-.list-text {
+.why-list svg{
   color: var(--blue);
+  
+}
+.list-text {
+ 
   font-weight:500;
   font-size:1.1rem;
-  margin-left:.5rem;
+  margin-left:1.5rem;
 }
 .why-list2 {
   font-size:1.2rem;
-  margin: 1rem 1rem 1rem .5rem;
+  margin: 1.3rem 1rem 1rem 1rem;
  
 }
 .why-list2 span {
-  margin-left:.5rem;
+  margin-left:1.5rem;
 }
 
 @media only screen and (max-width: 990px) {
