@@ -193,27 +193,27 @@ const Home = () => {
                   <ul className="p-0">
                     <li className="why-list2">
                       <img src="/assets/why1.png" alt="" />
-                      <span>Great candidate Experience </span>
+                      <span className="list-text">Great candidate Experience </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why2.png" alt="" />
-                      <span>80% increase in productivity </span>
+                      <span className="list-text">80% increase in productivity </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why3.png" alt="" />
-                      <span> Data driven decision making</span>
+                      <span className="list-text"> Data driven decision making</span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why4.png" alt="" />
-                      <span>50% improvement in quality</span>
+                      <span className="list-text">50% improvement in quality</span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why5.png" alt="" />
-                      <span>Sharp decline in TAT</span>
+                      <span className="list-text">Sharp decline in TAT</span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why6.png" alt="" />
-                      <span>Signi Cost Savings</span>
+                      <span className="list-text">Signi Cost Savings</span>
                     </li>
                   </ul>
                 </div>
@@ -316,7 +316,7 @@ const Home = () => {
                       style={{ background: `url(${item.image})` }}
                     >
                       <img src={item.image} alt="" />
-                      <h3 className="  ">{item.title}</h3>
+                      <h3>{item.title}</h3>
                     </div>
                   );
                 })}

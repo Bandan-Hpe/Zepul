@@ -89,6 +89,7 @@
   padding: 0.3rem 0.3rem;
   margin-left: 1rem;
   font-weight: 700;
+  margin-bottom:.1rem !important;
 }
 
 .card-item img {
@@ -174,7 +175,7 @@
 .list-text {
  
   font-weight:500;
-  font-size:1.1rem;
+  font-size:17px;
   margin-left:1.5rem;
 }
 .why-list2 {
