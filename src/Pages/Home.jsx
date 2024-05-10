@@ -151,8 +151,8 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="row justify-content-between">
-                <div className="col-md-6 col-xl-6">
+              <div className="row justify-content-center">
+                <div className="col-md-5 col-xl-5">
                   <ul className="p-0">
                     <li className="why-list">
                       <FaHome />
@@ -189,7 +189,7 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-6 col-xl-6">
+                <div className="col-md-5 col-xl-5">
                   <ul className="p-0">
                     <li className="why-list2">
                       <img src="/assets/why1.png" alt="" />
@@ -220,7 +220,7 @@ const Home = () => {
               </div>
             </section>
 
-            <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
+            <section className="d-flex row innovation py-md-5  align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
                   <p className="color-title mb-2 fw-semibold">What We Offer</p>
@@ -306,7 +306,7 @@ const Home = () => {
                 </div>
               </div>
             </section>
-            <section className="cards mt-5  ">
+            <section className="cards mt-5  mb-3">
               <div className="row justify-content-between">
                 {cardData.map((item, index) => {
                   return (

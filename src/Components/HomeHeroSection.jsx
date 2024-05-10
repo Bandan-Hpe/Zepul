@@ -23,7 +23,7 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="btn-grp mt-5 d-flex gap-4">
-              <button className="sign-in-button hero">Sign In</button>
+              <button className="sign-in-button hero">Try Zepul</button>
               {/* <button className="learn-more-button hero">Learn more</button> */}
             </div>
           </div>
