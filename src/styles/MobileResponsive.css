@@ -85,6 +85,7 @@
   }
   .cards {
     margin: 1rem 0rem;
+    padding:0px !important;
   }
   .card-item h3 {
     padding: 0.5rem;

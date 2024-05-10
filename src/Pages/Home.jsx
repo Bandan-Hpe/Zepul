@@ -268,7 +268,7 @@ const Home = () => {
             </section>
             <section className="">
               <div className="row">
-                <div className="col-md-6 col-sm-6 col-lg-3 cards">
+                <div className="col-md-6 col-sm-6 col-lg-3 cards ">
                   <div className="serviceBox position-relative">
                     <div className="font">
                       <img src="/assets/fulltime.png" alt="" />
@@ -334,7 +334,7 @@ const Home = () => {
                 {cardData.map((item, index) => {
                   return (
                     <div
-                      className="col-md-4 col-xl-3 card-item d-flex   flex-column justify-content-center align-items-center gap-3"
+                      className="col-md-5 col-xl-3 card-item d-flex   flex-column justify-content-center align-items-center gap-3 p-0"
                       key={index}
                       style={{ background: `url(${item.image})` }}
                     >
