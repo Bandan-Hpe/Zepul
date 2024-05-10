@@ -53,7 +53,7 @@ const PartnerCarousel = () => {
         <div className="row justify-content-between ">
           <div className="col-md-4 col-xl-3 col-sm-12">
             <p>
-              Trusted by more then 100+
+              Trusted by more than 100+
               <br />
               Companies across the globe
             </p>

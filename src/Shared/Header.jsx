@@ -11,7 +11,7 @@ const Header = () => {
           <div className=" logo">
             <Link to="/">
             <img
-              src="/assets/logo.jpg"
+              src="/assets/logo.png"
               alt="logo"
             /></Link>
            
