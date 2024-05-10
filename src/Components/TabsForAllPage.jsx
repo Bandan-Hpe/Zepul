@@ -12,13 +12,12 @@ const Commontabs = ({ data }) => {
     setValue(newValue);
   };
 
-  const selectedContent = tab_Content.find((content) => content.id === value);
-  console.log(selectedContent);
+  // const selectedContent = tab_Content.find((content) => content.id === value);
 
   return (
     <Fragment>
-      <section className="tabs mt-md-5">
-        <div className="container-fluid">
+      <section className="tabs mt-md-2">
+        <div className="container-fluid ">
           <Tabs
             value={value}
             onChange={handleChange}

@@ -17,8 +17,9 @@
   transition: opacity 0.5s ease;
 }
 .dropdowns-item h5 {
-  font-size: 20px !important;
+  font-size: 20px ;
   color: #000;
+  font-weight: 500;
 }
 .dropdowns-item p {
   font-size: 14px !important;

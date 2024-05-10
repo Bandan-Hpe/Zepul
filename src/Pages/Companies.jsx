@@ -37,7 +37,7 @@ const Companies = () => {
           <PartnerCarousel />
         </div>
         <div className="row">
-          <section className="d-flex row innovation py-md-5 mt-5 align-items-center">
+          <section className="d-flex row innovation py-md-3 mt-2 align-items-center">
             <div className="col-md-6">
               <div className="home-content">
                 <p className="color-title mb-2 fw-semibold">Revolutionize hiring</p>
