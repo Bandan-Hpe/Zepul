@@ -152,60 +152,81 @@ const Home = () => {
                 </div>
               </div>
               <div className="row justify-content-center">
-                <div className="col-md-5 col-xl-5">
+                <div className="col-md-6 col-xl-5">
                   <ul className="p-0">
                     <li className="why-list">
-                      <FaHome />
+                      <div>
+                        <FaHome />
+                      </div>
                       <span className="list-text">
                         Use it all for free platform which includes ATS
                       </span>
                     </li>
                     <li className="why-list">
-                      <FaUser />
+                      <div>
+                        <FaUser />
+                      </div>
                       <span className="list-text">
                         Dedicated Account Manager
                       </span>
                     </li>
                     <li className="why-list">
-                      <FaSearch />
+                      <div>
+                        <FaSearch />
+                      </div>
                       <span className="list-text">
                         Only active profiles and quality equals few dropouts
                       </span>
                     </li>
                     <li className="why-list">
-                      <FaGlobe />
+                      <div>
+                        <FaGlobe />
+                      </div>
                       <span className="list-text">Free Employer Branding</span>
                     </li>
                     <li className="why-list">
-                      <FaCheck />
+                      <div>
+                        <FaCheck />
+                      </div>
 
                       <span className="list-text">Easy to Adapt</span>
                     </li>
                     <li className="why-list">
-                      <FaCartPlus />
+                      <div>
+                        <FaCartPlus />
+                      </div>
                       <span className="list-text">
                         One Stop Shop-Rights from Requisition to Onboarding
                       </span>
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-5 col-xl-5">
+                <div className="col-md-6 col-xl-5">
                   <ul className="p-0">
                     <li className="why-list2">
                       <img src="/assets/why1.png" alt="" />
-                      <span className="list-text">Great candidate Experience </span>
+                      <span className="list-text">
+                        Great candidate Experience{" "}
+                      </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why2.png" alt="" />
-                      <span className="list-text">80% increase in productivity </span>
+                      <span className="list-text">
+                        80% increase in productivity{" "}
+                      </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why3.png" alt="" />
-                      <span className="list-text"> Data driven decision making</span>
+                      <span className="list-text">
+                        {" "}
+                        Data driven decision making
+                      </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why4.png" alt="" />
-                      <span className="list-text">50% improvement in quality</span>
+                      <span className="list-text">
+                        50% improvement in quality
+                      </span>
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why5.png" alt="" />
@@ -213,14 +234,16 @@ const Home = () => {
                     </li>
                     <li className="why-list2">
                       <img src="/assets/why6.png" alt="" />
-                      <span className="list-text">Signi Cost Savings</span>
+                      <span className="list-text">
+                        Significant Cost Savings
+                      </span>
                     </li>
                   </ul>
                 </div>
               </div>
             </section>
 
-            <section className="d-flex row innovation py-md-5  align-items-center">
+            <section className="d-flex row innovation py-md-3  align-items-center">
               <div className="col-md-6 mt-5">
                 <div className="home-content">
                   <p className="color-title mb-2 fw-semibold">What We Offer</p>
@@ -306,7 +329,7 @@ const Home = () => {
                 </div>
               </div>
             </section>
-            <section className="cards mt-5  mb-3">
+            <section className="cards mt-2  mb-3">
               <div className="row justify-content-between">
                 {cardData.map((item, index) => {
                   return (

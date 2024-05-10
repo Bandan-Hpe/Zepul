@@ -36,7 +36,7 @@ const Header = () => {
             </ul>
           </nav>
         
-          <div className=" d-flex justify-content-end btn-grp ">
+          <div className=" d-flex justify-content-end btn-grp align-items-center ">
           <nav className="mob-nav ">
             <button
               type="button"
@@ -65,6 +65,7 @@ const Header = () => {
             </ul>
           </nav>
             <button className="sign-in-button btnn">Sign In</button>
+
           </div>
         </div>
 

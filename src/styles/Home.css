@@ -170,6 +170,7 @@
 .why-list {
   margin: 1.5rem 0rem;
   font-size: 1.5rem;
+  display: flex;
 }
 .why-list svg{
   color: var(--blue);
@@ -183,8 +184,12 @@
 }
 .why-list2 {
   font-size:1.2rem;
-  margin: 1.3rem 1rem 1rem 1rem;
+  margin:1rem 0rem
+  
  
+}
+.why-list2 img {
+  width:50px;
 }
 .why-list2 span {
   margin-left:1.5rem;
