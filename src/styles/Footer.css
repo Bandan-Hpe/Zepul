@@ -24,9 +24,17 @@ footer .logo p {
   font-size: 20px;
   color: #808490;
 }
+.footer-info li{
+  margin:1rem 0rem;
+
+}
 .icon:hover {
   color: #fff;
 }
 .copy-right{
   font-size:15px;
+}
+.address-info img{
+  width:23px;
+  height:23px;
 }

@@ -82,21 +82,25 @@ const Footer = () => {
                 <FaTwitter className="icon" />
               </Link>
             </div>
-            <div className="address-info d-flex flex-column mt-4">
-              <div className="address d-flex gap-3 align-items-center">
-                <FaHome className="icon" />
-                <p className="mb-0">
-                  Floor 1, Jayabheri Enclave, Gachibowli, Hyderabad - 500032
-                </p>
-              </div>
-              <div className="number d-flex gap-3 align-items-center mt-3">
-                <FaPhoneVolume className="icon" />
-                <p className="mb-0">+91 9182289998</p>
-              </div>
-              <div className="email  d-flex gap-3 align-items-center mt-3">
-                <MdAlternateEmail className="icon" />
-                <p className="mb-0">info@zepul.com</p>
-              </div>
+            <div className="address-info mt-4">
+              <ul className="p-0 footer-info">
+                <li className="d-flex align-items-center">
+                  <div>
+                    <img src="/assets/location.png" alt="home" />
+                  </div>
+                  <span className="mb-0 mx-2">
+                    Floor 1, Jayabheri Enclave, Gachibowli, Hyderabad - 500032
+                  </span>
+                </li>
+                <li>
+                  <img src="/assets/call.png" alt="call" />
+                  <span className="mb-0 mx-2">+91 9182289998</span>
+                </li>
+                <li>
+                  <img src="/assets/mail.png" alt="mail" />
+                  <span className="mb-0 mx-2">info@zepul.com</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
