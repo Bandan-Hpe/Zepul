@@ -22,7 +22,7 @@ export const RecruiterData = {
       description:
         "Zepul understands the importance of efficient resource utilization in today's competitive business environment. Our platform empowers you to optimize resources and tools, allowing you to",
 
-      btn_txt: "Sign up",
+      btn_txt: "Become Recruitment Partner",
       communityData: [
         {
           id: 1,
@@ -51,7 +51,7 @@ export const RecruiterData = {
       description:
         "Zepul empowers you to transcend geographical limitations and unlock the full potential of the global marketplace",
 
-      btn_txt: "Sign up",
+      btn_txt: "Become Recruitment Partner",
       communityData: [
         {
           id: 1,
@@ -80,7 +80,7 @@ export const RecruiterData = {
         " Streamline Acquisition, Reduce Costs: Cultivating a Sustainable Recruitment Strategy",
       description:
         "Zepul empowers you to optimize your recruitment process and achieve a substantial decrease in marketing costs. Here's how:",
-      btn_txt: "Sign up",
+      btn_txt: "Become Recruitment Partner",
       communityData: [
         {
           id: 1,

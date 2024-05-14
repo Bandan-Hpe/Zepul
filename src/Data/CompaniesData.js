@@ -33,7 +33,7 @@ export const CompaniesData = {
         "Leveraging Expertise: Optimizing Recruitment Through Skill-Based Matching",
       description:
         "In today's dynamic talent landscape, aligning candidate skillsets with specific requirements is crucial for successful recruitment outcomes. Zepul's proprietary matching algorithm addresses this critical need by correlating recruiter expertise with pre-defined skill-based profiles",
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,
@@ -63,7 +63,7 @@ export const CompaniesData = {
       description:
         "Building a successful team starts with identifying the right talent. Zepul takes a proactive approach by cultivating a diverse and dynamic database that harnesses the strengths of both active job seekers and strategic referrals. ",
 
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,
@@ -93,7 +93,7 @@ export const CompaniesData = {
       description:
         "Zepul's Applicant Tracking System (ATS) goes beyond streamlining the recruitment process. It empowers all stakeholders to actively participate and make informed decisions throughout the hiring journey.",
 
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,
@@ -123,7 +123,7 @@ export const CompaniesData = {
       description:
         "Zepul fosters collaboration, bridging delivery and recruitment teams for enhanced efficiency. We also manage interviews seamlessly.",
 
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,
@@ -152,7 +152,7 @@ export const CompaniesData = {
         "Cultivating High-Impact Hires: Building Strategic Partnerships and Talent Networks",
       description:
         "Building a successful team goes beyond finding qualified individuals. It's about fostering high-impact hires who can contribute significantly to your organization's growth to which Zepul’s proactive approach helps.",
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,
@@ -181,7 +181,7 @@ export const CompaniesData = {
         "Cultivating a Powerful Employer Brand: Attracting and Retaining Top Talent",
       description:
         "In today's dynamic talent landscape, aligning candidate skillsets with specific requirements is crucial for successful recruitment outcomes. Zepul's proprietary matching algorithm addresses this critical need by correlating recruiter expertise with pre-defined skill-based profiles",
-      btn_txt: "Sign up",
+      btn_txt: "Try Zepul",
       communityData: [
         {
           id: 1,

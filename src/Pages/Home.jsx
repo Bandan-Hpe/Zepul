@@ -196,7 +196,7 @@ const Home = () => {
                         <FaCartPlus />
                       </div>
                       <span className="list-text">
-                        One Stop Shop-Rights from Requisition to Onboarding
+                        One Stop Shop-Right from Requisition to Onboarding
                       </span>
                     </li>
                   </ul>

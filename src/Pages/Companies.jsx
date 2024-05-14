@@ -30,7 +30,7 @@ const Companies = () => {
         <CommonHeroSection
           title="Try Zepul"
           subtitle="Unlock the power of tailored recruitment solutions and build the winning teams that drive your success. Partner with Zepul."
-          btnText="Sign up"
+          btnText="Try Zepul"
           image="/assets/10. Try Zepul.png"
         />
         <div className="mt-5">
