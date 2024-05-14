@@ -9,17 +9,22 @@ const HeroSection = () => {
           <div className="col-md-6 col-sm-12 col-xl-5 ">
             <div className="content">
               <h1 className="hero-title ">
-                The Future Of <br />
-                Recruitment Is Here.
+                The{" "}
+                <span className="blue">
+                  Future Of <br />
+                  Recruitment
+                </span>{" "}
+                Is Here.
               </h1>
               <p className="hero-text mt-3 ">
-                Achieve your hiring goals <span className="fs-4 text-primary fw-bold">10x</span> faster by
+                Achieve your hiring goals{" "}
+                <span className="fs-4 text-primary fw-bold">10x</span> faster by
                 outsourcing talent acquisition to us, right from requisition to
-                onboarding. 
+                onboarding.
               </p>
-              <p className="hero-text mt-3">
-                Leave the hiring to us, so you can focus on what matters the
-                most.
+              <p className="hero-text mt-3 ">
+                <span className="blue">Leave the hiring to us,</span> so you can
+                focus on what matters the most.
               </p>
             </div>
             <div className="btn-grp mt-5 d-flex gap-4">
