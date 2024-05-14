@@ -22,9 +22,9 @@ const HeroSection = () => {
                 outsourcing talent acquisition to us, right from requisition to
                 onboarding.
               </p>
-              <p className="hero-text mt-3 ">
-                <span className="blue">Leave the hiring to us,</span> so you can
-                focus on what matters the most.
+              <p className="hero-text mt-3 blue">
+                Leave the hiring to us, so you can focus on what matters the
+                most.
               </p>
             </div>
             <div className="btn-grp mt-5 d-flex gap-4">
